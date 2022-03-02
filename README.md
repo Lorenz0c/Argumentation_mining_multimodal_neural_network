@@ -21,3 +21,6 @@ Each combination of structured data considered has also been used to train a fee
 Once the learning phase have been executed, some of the neural networks trained have been chosed as representative for each one of the three steps.
 The elements of the test set used to evalue the results of the learning have been labeled with the result of the predictions perfomed by each of the selected networks (false positive, false negative, ecc...).
 The STC has than be used to try analyze the errors and to try to find out which of the types of structured data considered could lead to furder improvements in each of the network choosed.
+
+Three dataset for argumentation mininghave been used: the Argument Annotated Essays Corpus (v2.0), the IBM Debater - Claim and sentences and the arg-microtexts corpus.
+In onrder to learn to predict a subjectivity score for each sentence in the corpus another dataset has been used: the subjectivity dataset v1.0.
